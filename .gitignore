@@ -2,3 +2,6 @@
 
 tests/**
 venv/**
+
+# files
+.env
