@@ -21,6 +21,6 @@ async def login_submit(request: Request):
 
     # deal with the request here
     form_data = await request.form()
-    print(form_data.get("email"))
+    email = form_data.get("email")
 
     return "success"
