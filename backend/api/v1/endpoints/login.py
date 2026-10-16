@@ -11,7 +11,7 @@ TEMPLATES_DIR = BASE_DIR / "frontend" / "templates"
 templates = Jinja2Templates(directory=str(TEMPLATES_DIR))
 
 
-@router.get("/")
+@router.get("/", name="login")
 def login_page(request: Request):
     return templates.TemplateResponse(request, "pages/login.html", {"title": "Login"})
 
