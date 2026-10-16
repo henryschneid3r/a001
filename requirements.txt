@@ -1,0 +1,7 @@
+psycopg2-binary
+fastapi
+jinja2
+PyJWT
+alembic
+sqlalchemy
+python-dotenv
