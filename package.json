@@ -19,7 +19,8 @@
     "test": "tests"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx @tailwindcss/cli -i ./frontend/src/css/main.css -o ./frontend/static/css/output.css"
   },
   "dependencies": {
     "@tailwindcss/cli": "^4.3.3",

@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html class="h-full bg-white">
+<head>
+  <title>{{ title }}</title>
+    <link rel="stylesheet" href="{{ url_for('static', path='css/output.css') }}">
+</head>
+<body class="h-full">
+    <main>
+        {% block content %}{% endblock %}
+    </main>
+</body>
+</html>
