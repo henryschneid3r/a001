@@ -1,11 +1,18 @@
-# folders
-
+# Folders
 tests/**
 venv/**
 __pycache__/**
 node_modules/**
 frontend/static/**
 
-# files
+# Environment Variables
 .env
+
+# Python Cache Files
 **.pyc
+
+# Databases
+*.db
+*.sqlite
+*.sqlite3
+
